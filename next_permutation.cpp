@@ -27,7 +27,7 @@ public:
             for (int i = n - 1; i > ind; i--) {
                 if (nums[i] > nums[ind]) {
                     swap(nums[i], nums[ind]);
-                    break;  // ✅ break after the first valid swap
+                    break;  //
                 }
             }
 
